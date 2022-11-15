@@ -1,0 +1,8 @@
+version: '3.6'
+services:
+ apache:
+  image: httpd:2.4
+  ports:
+  - "80:80"
+  volumes:
+  - /home/cabbrandao/projeto/pasta:/usr/local/apache2/htdocs
